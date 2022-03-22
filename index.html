@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Detector</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="alertBox">
+      <h1 id="alertTitle">You signed in with another tab or window</h1>
+      <h2 id="alertMessage">Please refresh the page.</h2>
+    </div>
+    <h1 id="formHeading">Enter your Username</h1>
+    <form onsubmit="usernameSubmit(event)">
+      <input type="text" id="username" placeholder="Username" />
+      <button id="submit">Submit</button>
+    </form>
+    <h3 id="loggedInText">
+      You are logged In as: <span id="loggedInUsername"></span>
+    </h3>
+    <script src="./script.js"></script>
+  </body>
+</html>

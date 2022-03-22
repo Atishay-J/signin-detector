@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#alertBox {
+  box-shadow: 0 0 15px -2px #dfdfdf;
+  background: rgb(133, 202, 248);
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: none;
+}
+#alertTitle {
+  font-size: 1.2rem;
+}
+#alertMessage {
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+}
+#formHeading {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: rgb(70, 70, 70);
+}
+form {
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+input {
+  height: 3rem;
+  width: 15rem;
+  border: none;
+  box-shadow: 0 0 10px -2px rgb(212, 212, 212);
+  outline: none;
+  border-radius: 12px 0 0 12px;
+  padding: 0 0.5rem;
+}
+#submit {
+  width: 5rem;
+  height: 3rem;
+  background: rgb(245, 245, 245);
+  outline: none;
+  border: none;
+  border-radius: 0 12px 12px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #616161;
+  cursor: pointer;
+}
+#loggedInText {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: rgb(70, 70, 70);
+  font-weight: 600;
+}
